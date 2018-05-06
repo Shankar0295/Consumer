@@ -1,0 +1,952 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* banner section */
+
+.wrapper-cf {
+    padding: 0px;
+    background-image: url('../images/bg_img.png');
+    background-size: cover;
+    height: 652px;
+    width: 100%;
+    position: relative;
+}
+
+/*navbar*/
+
+.navbar-inverse {
+    border: none;
+}
+
+.btn-signup {
+    color: #FFFFFF;
+    width: 110px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #5ECA86;
+    border-radius: 3px;
+    margin-top: 5px;
+}
+
+.navbar-inverse .navbar-toggle {
+    background-color: #4779ED;
+    border-color: #fff;
+}
+
+.navbar .nav {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-collapse {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.main-nav {
+    margin-left: 180px;
+}
+
+.navbar-brand {
+    float: left;
+    padding: 15px 15px;
+    font-size: 22px;
+    line-height: 20px;
+}
+
+.navbar {
+    position: absolute;
+    min-height: 50px;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    z-index: 999;
+    width: 100%;
+    background: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.navbar-header {
+    margin-left: 90px;
+    margin-top: 5px;
+}
+
+.navbar-brand {
+    margin-left: 80px!important;
+}
+
+/*hero section */
+
+.hero-banner {
+    margin-top: 70px;
+}
+
+.hero-pg {
+
+    color: #FFFFFF;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.hero-text {
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.btn-hero {
+    color: #FFFFFF;
+    width: 110px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #5ECA86;
+    border-radius: 3px;
+    margin-right: 20px;
+    box-shadow: 0 2px 7px #00A238;
+}
+
+.btn-banner {
+    background-color: #FFFFFF;
+    color: #5ECA86;
+    width: 110px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px 0 #C3C3C3;
+}
+
+hr {
+    width: 21px;
+    height: 2px;
+    background-color: #000000;
+    opacity: 0.3;
+    margin-top: 50px;
+}
+
+.hero-section {
+    margin-top: 10em;
+}
+
+.hero-image {
+    margin-top: 8em;
+    margin-left: 2em;
+}
+
+.arrow {
+    position: relative;
+    top: 420px;
+    right: 35px;
+}
+
+
+/*Segments section*/
+
+.segments-section>h4 {
+    font-size: 30px;
+    font-weight: 500 line-height: 45px;
+    text-align: center;
+    padding: 10px;
+}
+
+.segments-section>p {
+    height: 90px;
+    font-size: 15px;
+    line-height: 27px;
+    text-align: center;
+}
+
+.seg-text {
+    font-size: 15px;
+    line-height: 27px;
+}
+
+.seg-bold {
+    font-size: 15px;
+    line-height: 27px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.img-seg {
+    height: 191px;
+}
+
+.seller-segment {
+    margin-right: 60px;
+}
+
+.buyer-segment {
+    margin-right: 14px;
+}
+
+.seg {
+    margin-top: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 25px;
+}
+
+.seg-buy {
+    margin-left: 54px;
+}
+
+.seg-sell {
+    margin-top: 18px;
+}
+
+.btn-reg {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #5ECA86;
+    border-radius: 3px;
+    box-shadow: 0 2px 3px 0 #00AB3F;
+}
+
+/*How it works section*/
+
+.works {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.works-section>h4 {
+    font-size: 30px;
+    font-weight: 500 line-height: 45px;
+    text-align: center;
+    padding: 10px;
+}
+
+.works-text {
+    height: 90px;
+    font-size: 15px;
+    line-height: 27px;
+    text-align: center;
+}
+
+.img-seller {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    width: 100%;
+}
+
+.img-column {
+    padding-left: 40px;
+}
+
+/*categories section */
+
+.categories-section>h4 {
+    font-size: 30px;
+    font-weight: 500 line-height: 45px;
+    text-align: center;
+    padding: 10px;
+}
+
+.categories-section>p {
+    height: 90px;
+    font-size: 15px;
+    line-height: 27px;
+    text-align: center;
+}
+
+/* consumer buttons */
+
+.btn-buy {
+    color: #FFFFFF;
+    width: 110px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #5ECA86;
+    border-radius: 3px;
+    margin-right: 20px;
+    box-shadow: 0 2px 3px 0 #00AB3F;
+}
+
+.btn-sell {
+    background-color: #4779ED;
+    color: #FFFFFF;
+    width: 110px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px 0 #003FD1;
+}
+
+.consumers {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 50px;
+}
+
+/* 3 images heading etc
+*/
+
+.img-electronics,
+.img-food,
+.img-fashion {
+    height: 191px;
+}
+
+.consumer-heading {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.consumer-text {
+    padding-bottom: 20px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 27px;
+}
+
+.first-col {
+    margin-left: 50px;
+}
+
+
+/* Contact Us section */
+
+.contactus-section>h4 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
+    text-align: center;
+    padding: 10px;
+}
+
+/*contact text */
+
+.contact-text {
+    height: 8em;
+    font-size: 15px;
+    line-height: 27px;
+    text-align: center;
+}
+
+.btn-submit {
+    background-color: #5ECA86;
+    color: #FFFFFF;
+    width: 100%;
+    height: 56px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 3px;
+    box-shadow: 0 2px 3px 0 #00AB3F;
+    margin-bottom: 92px;
+}
+
+/*placeholder section */
+
+.con-fname {
+    height: 56px;
+    width: 48%;
+    padding-left: 10px;
+    font-size: 18px;
+    margin-right: 22px;
+    margin-bottom: 25px;
+}
+
+.con-cname {
+    height: 56px;
+    width: 48%;
+    margin-bottom: 25px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.con-sname {
+    width: 100%;
+    height: 190px;
+    margin-bottom: 25px;
+    padding-bottom: 8em;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+/*Footer Section */
+
+.title-footer {
+    font-size: 18px;
+}
+
+.foot-warp {
+    font-size: 16px;
+}
+
+.footer-col>ul>li {
+    list-style-type: none;
+    font-size: 16px;
+}
+
+.footer-section {
+    background-color: #F8F9FB;
+    padding-top: 45px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.footer-content {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+.btn-subscribe {
+    background-color: #5ECA86;
+    color: #FFFFFF;
+    width: 110px;
+    font-size: 18px;
+    font-weight: 600;
+    height: 44px;
+    margin-left: -3px;
+    margin-top: -5px;
+    border-radius: 0px;
+}
+
+.footer-ename {
+    height: 44px;
+    width: 16em;
+    padding-left: 10px;
+    border: none;
+}
+
+.footer-ul {
+    line-height: 2;
+}
+
+.footer-social {
+    padding-left: 65px;
+    margin-top: 12px;
+    margin-bottom: 25px;
+}
+
+
+/*MEDIA QUERIES FOR IPHONE 5/SE(POTRAIT), IPHONE 6/7/8(POTRAIT),IPHONE X(POTRAIT), IPAD & IPAD PRO(POTRAIT & LANDSCAPE)*/
+
+/* iphone 5 series */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
+    /*navbar*/
+    .navbar-brand {
+        margin-left: 0px!important;
+    }
+    .navbar-inverse .navbar-collapse {
+        border-color: #fff;
+        background-color: #4779ED;
+    }
+    .main-nav {
+        margin-left: 0px;
+    }
+    /*banner section*/
+    .hero-pg {
+        font-size: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        line-height: 30px;
+    }
+    .wrapper-cf {
+        background-size: auto;
+        height: 535px;
+    }
+    .hero-text {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .hero-section{
+        margin-top: 4em;
+    }
+    .wrapper-button {
+        padding-left: 20px;
+    }
+    .hero-image {
+        display: none;
+    }
+    /*Works section*/
+    .img-seller {
+        width: 100%;
+    }
+    /*seg section*/
+    .seg-sell {
+        text-align: center;
+    }
+    .seg-buy {
+        text-align: center;
+        margin-left: 0px;
+    }
+    /*categories section*/
+    .wrapper-btn {
+        margin-left: 12px;
+    }
+    /*contact us section*/
+    .contact-text {
+        margin-bottom: 35px;
+    }
+    .con-fname {
+        width: 100%;
+        border: 1px solid lightgrey;
+    }
+    .con-cname {
+        width: 100%;
+        border: 1px solid lightgrey;
+    }
+    .con-sname {
+        width: 100%;
+        border: 1px solid lightgrey;
+    }
+    /*footer section*/
+    .footer-social {
+        padding-left: 0px;
+    }
+    .footer-subscribe {
+        padding-left: 0px;
+    }
+    .footer-ename {
+        width: 53%;
+        padding: 1px;
+    }
+    .footer-cf {
+        padding: 0px;
+    }
+    .footer-ul {
+        padding: 0px;
+    }
+}
+
+/*iPhone 6/7/8*/
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
+    .navbar-brand {
+        margin-left: 0px!important;
+    }
+    .navbar-inverse .navbar-collapse {
+        border-color: #fff;
+        background-color: #4779ED;
+    }
+    .main-nav {
+        margin-left: 0px;
+    }
+    /*banner section*/
+    .hero-pg {
+        font-size: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        line-height: 30px;
+    }
+    .wrapper-cf {
+        background-size: auto;
+        height: 535px;
+    }
+    .hero-text {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .wrapper-button {
+        padding-left: 20px;
+    }
+    .hero-image {
+        display: none;
+    }
+    /*Works section*/
+    .img-seller {
+        width: 100%;
+    }
+    /*seg section*/
+    .seg-sell {
+        text-align: center;
+    }
+    .seg-buy {
+        text-align: center;
+        margin-left: 0px;
+    }
+    /*categories section*/
+    .wrapper-btn {
+        margin-left: 35px;
+    }
+    /*contact us section*/
+    .contact-text {
+        margin-bottom: 35px;
+    }
+    .con-fname {
+        width: 100%;
+        border: 1px solid lightgrey;
+    }
+    .con-cname {
+        width: 100%;
+        border: 1px solid lightgrey;
+    }
+    .con-sname {
+        width: 100%;
+        border: 1px solid lightgrey;
+    }
+    /*footer section*/
+    .footer-social {
+        padding-left: 0px;
+    }
+    .footer-subscribe {
+        padding-left: 0px;
+    }
+    .footer-ename {
+        width: 53%;
+        padding: 1px;
+    }
+    .footer-cf {
+        padding: 0px;
+    }
+    .footer-ul {
+        padding: 0px;
+    }
+}
+
+/*iPhone X*/
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+    .navbar-brand {
+        margin-left: 0px!important;
+    }
+    .navbar-inverse .navbar-collapse {
+        border-color: #fff;
+        background-color: #4779ED;
+    }
+    .main-nav {
+        margin-left: 0px;
+    }
+    /*banner section*/
+    .hero-pg {
+        font-size: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        line-height: 30px;
+    }
+    .hero-section {
+        margin-top: 5em;
+    }
+    .wrapper-cf {
+        background-size: auto;
+        height: 535px;
+    }
+    .hero-text {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .wrapper-button {
+        padding-left: 20px;
+    }
+    .hero-image {
+        display: none;
+    }
+    /*Works section*/
+    .img-seller {
+        width: 100%;
+    }
+    /*seg section*/
+    .seg-sell {
+        text-align: center;
+    }
+    .seg-buy {
+        text-align: center;
+        margin-left: 0px;
+    }
+    /*categories section*/
+    .wrapper-btn {
+        margin-left: 35px;
+    }
+    /*contact us section*/
+    .contact-text {
+        margin-bottom: 35px;
+    }
+    .con-fname {
+        width: 100%;
+        border: 1px solid lightgrey;
+    }
+    .con-cname {
+        width: 100%;
+        border: 1px solid lightgrey;
+    }
+    .con-sname {
+        width: 100%;
+        border: 1px solid lightgrey;
+    }
+    /*footer section*/
+    .footer-social {
+        padding-left: 0px;
+    }
+    .footer-subscribe {
+        padding-left: 0px;
+    }
+    .footer-ename {
+        width: 53%;
+        padding: 1px;
+    }
+    .footer-cf {
+        padding: 0px;
+    }
+    .footer-ul {
+        padding: 0px;
+    }
+}
+
+/*iPad-Potrait*/
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px)and (orientation: portrait) {
+    .navbar-brand {
+        margin-left: 0px!important;
+    }
+    .main-nav {
+        margin-left: 0px;
+        font-size: 14px;
+    }
+    .nav.navbar-nav {
+        font-size: 14px;
+    }
+    /*banner section*/
+    .hero-pg {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .wrapper-cf {
+        background-size: auto;
+        height: 535px;
+    }
+    .hero-text {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    .wrapper-button {
+        padding-left: 25px;
+    }
+    .hero-section {
+        margin-top: 7em;
+    }
+    .hero-image {
+        display: none;
+    }
+    /*Works section*/
+    .img-seller {
+        width: 100%;
+    }
+    .works-text {
+        font-size: 20px;
+    }
+    /*seg section*/
+    .segments-section>p {
+        font-size: 20px;
+    }
+    .seg-sell {
+        text-align: center;
+    }
+    .seg-buy {
+        text-align: center;
+        margin-left: 0px;
+    }
+    .seg-bold {
+        font-size: 18px;
+    }
+    .seg-text {
+        font-size: 18px;
+    }
+    .img-seg {
+        margin-left: 200px;
+    }
+    /*categories section*/
+    .wrapper-btn {
+        margin-left: 225px;
+    }
+    .categories-section>p {
+        font-size: 18px;
+    }
+    .img-electronics,
+    .img-fashion,
+    .img-food {
+        margin-left: 200px;
+    }
+    .consumer-heading {
+        font-size: 20px;
+    }
+    .consumer-text {
+        font-size: 18px;
+    }
+    /*contact us section*/
+    .contact-text {
+        font-size: 18px;
+        margin-bottom: 35px;
+    }
+    .con-fname {
+        width: 100%;
+        border: 1px solid lightgrey;
+    }
+    .con-cname {
+        width: 100%;
+        border: 1px solid lightgrey;
+    }
+    .con-sname {
+        width: 100%;
+        border: 1px solid lightgrey;
+    }
+    /*footer section*/
+    .footer-social {
+        padding-left: 0px;
+    }
+    .footer-subscribe {
+        padding-left: 0px;
+    }
+    .footer-ename {
+        width: 53%;
+        padding: 1px;
+    }
+    .footer-cf {
+        padding: 0px;
+    }
+    .footer-ul {
+        padding: 0px;
+    }
+}
+
+
+/*ipad-landscape*/
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    /*navbar*/
+    .navbar-brand {
+        margin-left: 57px!important;
+    }
+    .main-nav {
+        font-size: 14px;
+        margin-left: 76px!important;
+    }
+    /*hero-section*/
+    .wrapper-cf {
+        background-size: auto;
+        height: 600px;
+    }
+    .hero-section {
+        margin-top: 5em;
+    }
+
+    /*categories-section*/
+    .con-fa {
+        padding-bottom: 0px;
+    }
+    .img-electronics,
+    .img-food,
+    .img-fashion {
+        height: 140px;
+    }
+    /*segments section*/
+    .img-seg {
+        height: 160px;
+    }
+    .seg-buy {
+        margin-left: 0px;
+    }
+    .con-food {
+        padding-left: 70px;
+    }
+    .seg-sell {
+        margin-left: 24px;
+    }
+    /*contact us*/
+    .con-fname {
+        width: 100%;
+        border: 1px solid lightgrey;
+    }
+    .con-cname {
+        width: 100%;
+        border: 1px solid lightgrey;
+    }
+    .con-sname {
+        width: 100%;
+        border: 1px solid lightgrey;
+    }
+    /*footer section*/
+    .footer-ename {
+        height: 44px;
+        padding-left: 10px;
+        border: none;
+        width: 12em;
+    }
+}
+
+
+/*ipad pro potrait*/
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
+    /*navbar*/
+    .navbar-brand {
+        margin-left: 83px!important;
+    }
+    .main-nav {
+        margin-left: 55px;
+    }
+    /*hero section*/
+    .wrapper-cf {
+        height: 630px;
+    }
+    .hero-section {
+        margin-top: 5em;
+    }
+    .hero-image {
+        display: block;
+        margin-top: 12em;
+        margin-left: 0px;
+    }
+    .works-text {
+        font-size: 18px;
+    }
+    /*segment section*/
+    .img-seg {
+        margin-left: 0px;
+    }
+    .img-electronics,
+    .img-fashion,
+    .img-food {
+        margin-left: 0px;
+        height: 154px;
+    }
+    .wrapper-btn {
+        margin-left: 0px;
+    }
+    .con-fa {
+        padding-bottom: 0px;
+    }
+    .segments-section>p {
+        font-size: 18px;
+    }
+    /*footer*/
+    .footer-social {
+        padding-left: 15px;
+    }
+}
+
+
+/*iPad pro landscape*/
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1.5) {
+    /*navbar*/
+    .main-nav {
+        margin-left: 200px;
+    }
+    .wrapper-cf {
+        background-size: auto;
+    }
+    /*contactus*/
+    .con-fname {
+        width: 100%;
+        border: 1px solid lightgrey;
+    }
+    .con-cname {
+        width: 100%;
+        border: 1px solid lightgrey;
+    }
+    .con-sname {
+        width: 100%;
+        border: 1px solid lightgrey;
+    }
+}
